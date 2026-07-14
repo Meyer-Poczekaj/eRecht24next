@@ -1,0 +1,71 @@
+{
+  "name": "erecht24next",
+  "version": "0.1.0",
+  "description": "eRecht24 Rechtstexte für Next.js: automatischer Sync von Impressum & Datenschutzerklärung über die eRecht24-API, inkl. Push-Webhook und Server Components.",
+  "license": "MIT",
+  "author": "Meyer & Poczekaj <info@meyerpoczekaj.de>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meyer-Poczekaj/eRecht24next.git"
+  },
+  "homepage": "https://github.com/Meyer-Poczekaj/eRecht24next#readme",
+  "bugs": {
+    "url": "https://github.com/Meyer-Poczekaj/eRecht24next/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "default": "./dist/server.js"
+    },
+    "./handler": {
+      "types": "./dist/handler.d.ts",
+      "default": "./dist/handler.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "default": "./dist/react.js"
+    }
+  },
+  "bin": {
+    "erecht24next": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "erecht24",
+    "nextjs",
+    "impressum",
+    "datenschutz",
+    "privacy-policy",
+    "legal",
+    "dsgvo"
+  ],
+  "peerDependencies": {
+    "next": ">=15.0.0",
+    "react": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "typescript": "^5"
+  }
+}

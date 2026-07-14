@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.next/
+*.tgz
+.env
+.env.*
+# Enthält nur die öffentlichen eRecht24-Demo-Keys — bewusst eingecheckt,
+# damit die Beispiel-App ohne Einrichtung läuft.
+!example/.env.local
