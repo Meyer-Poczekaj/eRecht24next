@@ -12,10 +12,6 @@ export const ERECHT24_DEMO_PLUGIN_KEY =
  * Fest im Package hinterlegter eRecht24 Developer-/Plugin-Key. Er
  * identifiziert dieses Plugin gegenüber der eRecht24-API — Endnutzer des
  * Packages müssen (und sollen) hier nichts konfigurieren.
- *
- * TODO: Nach Erhalt des echten Developer-Keys (Antrag an api@e-recht24.de,
- * setzt Unterzeichnung der API-Nutzungsbedingungen voraus) den Demo-Key
- * hier ersetzen und eine neue Package-Version veröffentlichen.
  */
 export const ERECHT24_PLUGIN_KEY = ERECHT24_DEMO_PLUGIN_KEY;
 

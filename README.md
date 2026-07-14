@@ -114,10 +114,7 @@ Shell-Umgebung.
 | `ERECHT24_BASE_URL`     | nein    | API-Basis-URL (Default `https://api.e-recht24.de/v2`)     |
 
 Der Plugin-Key ist bewusst **keine** Umgebungsvariable: Er identifiziert das
-Plugin (nicht die Website) und ist als Konstante `ERECHT24_PLUGIN_KEY` in
-`src/config.ts` hinterlegt. Für Maintainer: Nach Erhalt des echten
-Developer-Keys von eRecht24 dort den Demo-Key ersetzen und eine neue Version
-veröffentlichen — bis dahin liefert die API nur Beispieltexte.
+Plugin (nicht die Website) und ist fest im Package hinterlegt.
 
 Alle Werte lassen sich pro Aufruf überschreiben
 (`createERecht24Handler({ config: {...} })`,
