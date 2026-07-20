@@ -1,5 +1,13 @@
 # eRecht24next
 
+> [!IMPORTANT]
+> Dieses Package ist eine unabhängige, externe Entwicklung und **kein
+> offizielles Produkt von eRecht24**. Es wird nicht von eRecht24
+> herausgegeben, unterstützt oder gewartet; Grundlage ist allein die
+> öffentlich dokumentierte
+> [eRecht24 Rechtstexte-API](https://api-docs.e-recht24.de/).
+> „eRecht24" ist eine Marke des jeweiligen Rechteinhabers.
+
 eRecht24 Rechtstexte für Next.js: automatische Synchronisation von Impressum,
 Datenschutzerklärung und Social-Media-Datenschutzerklärung über die
 [eRecht24 Rechtstexte-API](https://api-docs.e-recht24.de/) — inklusive
@@ -146,3 +154,7 @@ cd example && npm install && npm run dev
   abgerufen, wie von der API-Doku gefordert.
 - API-Keys sind sha256-Hashes (64 Zeichen); das Push-Secret hat bis zu
   128 Zeichen.
+
+## Lizenz
+
+[MIT](LICENSE) © Meyer & Poczekaj
