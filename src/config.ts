@@ -9,11 +9,12 @@ export const ERECHT24_DEMO_PLUGIN_KEY =
   "3jh4uhn8u69i97kj9timk466748996ikhkjhlk67plli08lhkijgh8z4363gr53v";
 
 /**
- * Fest im Package hinterlegter eRecht24 Developer-/Plugin-Key. Er
- * identifiziert dieses Plugin gegenüber der eRecht24-API — Endnutzer des
+ * Fest im Package hinterlegter, produktiver eRecht24 Developer-/Plugin-Key.
+ * Er identifiziert dieses Plugin gegenüber der eRecht24-API — Endnutzer des
  * Packages müssen (und sollen) hier nichts konfigurieren.
  */
-export const ERECHT24_PLUGIN_KEY = ERECHT24_DEMO_PLUGIN_KEY;
+export const ERECHT24_PLUGIN_KEY =
+  "srgFbgMcUZdRsUYZ5XwCR5ad5oNaAaxn35DAdNWFRPvLWoLCKMeWiPaQ2dicRwYz";
 
 export const ERECHT24_DEFAULT_BASE_URL = "https://api.e-recht24.de/v2";
 
