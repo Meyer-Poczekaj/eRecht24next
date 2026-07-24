@@ -14,7 +14,7 @@ import { ERECHT24_DOCUMENT_TYPES } from "./types.js";
  *
  * ```ts
  * // app/api/erecht24/route.ts
- * import { createERecht24Handler } from "erecht24next/handler";
+ * import { createERecht24Handler } from "@meyerpoczekaj/erecht24next/handler";
  * export const { GET, POST } = createERecht24Handler();
  * ```
  *

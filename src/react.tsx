@@ -16,7 +16,7 @@ export interface ERecht24DocumentProps
    * API nicht erreichbar, Konfiguration fehlt) — z. B. eine lokale Kopie.
    */
   fallback?: ReactNode;
-  /** Config-Overrides, siehe erecht24next/server. */
+  /** Config-Overrides, siehe @meyerpoczekaj/erecht24next/server. */
   erecht24?: ERecht24ServerOptions;
 }
 
@@ -24,7 +24,7 @@ export interface ERecht24DocumentProps
  * Async Server Component: rendert einen eRecht24-Rechtstext als HTML.
  *
  * ```tsx
- * import { ERecht24Document } from "erecht24next/react";
+ * import { ERecht24Document } from "@meyerpoczekaj/erecht24next/react";
  *
  * export default function DatenschutzPage() {
  *   return <ERecht24Document type="privacyPolicy" lang="de" className="prose" />;

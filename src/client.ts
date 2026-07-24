@@ -33,7 +33,7 @@ export class ERecht24ApiError extends Error {
 
 /**
  * Dünner, typisierter Client für die eRecht24-API v2.
- * Framework-frei — die Next.js-Integration liegt in `erecht24next/server`.
+ * Framework-frei — die Next.js-Integration liegt in `@meyerpoczekaj/erecht24next/server`.
  */
 export class ERecht24Api {
   readonly config: ERecht24Config;

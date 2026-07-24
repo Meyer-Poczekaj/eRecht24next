@@ -1,9 +1,12 @@
 {
-  "name": "erecht24next",
+  "name": "@meyerpoczekaj/erecht24next",
   "version": "0.1.0",
   "description": "eRecht24 Rechtstexte für Next.js: automatischer Sync von Impressum & Datenschutzerklärung über die eRecht24-API, inkl. Push-Webhook und Server Components.",
   "license": "MIT",
   "author": "Meyer & Poczekaj <info@meyerpoczekaj.de>",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Meyer-Poczekaj/eRecht24next.git"

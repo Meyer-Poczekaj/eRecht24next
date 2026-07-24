@@ -10,7 +10,7 @@ import type {
  * Next.js-Integration: gecachte Getter für die Rechtstexte.
  *
  * Die Texte landen mit einem Cache-Tag im Next-Data-Cache und bleiben dort,
- * bis entweder der Push-Webhook (`erecht24next/handler`) sie invalidiert oder
+ * bis entweder der Push-Webhook (`@meyerpoczekaj/erecht24next/handler`) sie invalidiert oder
  * die revalidate-Frist (Default: 24 h) als Sicherheitsnetz abläuft.
  */
 

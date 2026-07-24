@@ -1,4 +1,4 @@
-import { ERecht24Document } from "erecht24next/react";
+import { ERecht24Document } from "@meyerpoczekaj/erecht24next/react";
 
 export default function DatenschutzPage() {
   return (

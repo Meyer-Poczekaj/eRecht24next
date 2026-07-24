@@ -29,7 +29,7 @@ und muss nicht konfiguriert werden.
 ## Installation
 
 ```bash
-npm install erecht24next
+npm install @meyerpoczekaj/erecht24next
 ```
 
 ## Einrichtung (3 Schritte pro Website)
@@ -44,7 +44,7 @@ ERECHT24_API_KEY=<Key aus dem eRecht24 Projekt Manager>
 
 ```ts
 // app/api/erecht24/route.ts
-import { createERecht24Handler } from "erecht24next/handler";
+import { createERecht24Handler } from "@meyerpoczekaj/erecht24next/handler";
 
 export const { GET, POST } = createERecht24Handler();
 ```
@@ -63,7 +63,7 @@ Textänderung.
 
 ```tsx
 // app/impressum/page.tsx
-import { ERecht24Document } from "erecht24next/react";
+import { ERecht24Document } from "@meyerpoczekaj/erecht24next/react";
 
 export default function ImpressumPage() {
   return (
@@ -80,7 +80,7 @@ export default function ImpressumPage() {
 Oder auf Daten-Ebene, wenn ihr das Markup selbst bauen wollt:
 
 ```tsx
-import { getPrivacyPolicy, getLegalDocumentSafe } from "erecht24next/server";
+import { getPrivacyPolicy, getLegalDocumentSafe } from "@meyerpoczekaj/erecht24next/server";
 
 const doc = await getPrivacyPolicy(); // wirft bei Fehlern
 const safe = await getLegalDocumentSafe("privacyPolicy"); // null bei Fehlern
