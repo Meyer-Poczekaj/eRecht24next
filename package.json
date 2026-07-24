@@ -36,7 +36,7 @@
     }
   },
   "bin": {
-    "erecht24next": "./dist/cli.js"
+    "erecht24next": "dist/cli.js"
   },
   "files": [
     "dist"
